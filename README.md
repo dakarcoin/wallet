@@ -17,14 +17,9 @@ software which enables the use of this currency.
 
 For comprehensive documentation, see developer.Dakarwallet.com.
 
-# Supported Blockchains
-
-Wallet Core supports more than **50** blockchains: Bitcoin, Ethereum, Binance Chain, and most major blockchain platforms.
-The full list is [here](docs/coins.md).
-
 # Building
 
-For build instructions, see [developer.Dakarwallet.com/wallet-core/building](https://developer.Dakarwallet.com/wallet-core/building).
+For build instructions, see developer.Dakarwallet.com/wallet-core/building
 
 
 # Using from your project
@@ -49,13 +44,7 @@ dependencies {
 Replace x.y.z with latest version:  
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Dakarwallet/wallet-core)
 
-## iOS
 
-We currently support only CocoaPods. Add this line to your Podfile and run `pod install`:
-
-```ruby
-pod 'DakarWalletCore'
-```
 
 # Projects
 
