@@ -1,4 +1,4 @@
-<img src="c.png" align="center" title="Trust logo" width = "500" height = "249">
+<img src="c.png" align="center" title="Trust logo" width = "500" >
 
 # What is DakarCoin?
 
