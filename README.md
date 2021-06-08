@@ -14,19 +14,8 @@ DakarCoin Core is an open source, cross-platform, mobile-focused library
 implementing low-level cryptographic wallet functionality for a high number of blockchains.
 It is a core part of the popular [Dakar Wallet](https://Dakarwallet.com), and some other projects.
 Most of the code is C++ with a set of strict C interfaces, and idiomatic interfaces for supported languages:
-Swift for iOS and Java for Android.
+Java for Android.
 
-
-![Android CI](https://github.com/Dakarwallet/wallet-core/workflows/Android%20CI/badge.svg)
-![Linux CI](https://github.com/Dakarwallet/wallet-core/workflows/Linux%20CI/badge.svg)
-![Docker CI](https://github.com/Dakarwallet/wallet-core/workflows/Docker%20CI/badge.svg)
-![Typescript CI](https://github.com/Dakarwallet/wallet-core/workflows/Typescript%20CI/badge.svg)
-
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Dakarwallet/wallet-core)
-![GitHub](https://img.shields.io/github/license/DakarWallet/wallet-core.svg)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/Dakarwallet/wallet-core)
-![Cocoapods](https://img.shields.io/cocoapods/v/DakarWalletCore.svg)
-![Cocoapods platforms](https://img.shields.io/cocoapods/p/DakarWalletCore.svg)
 
 # Documentation
 
