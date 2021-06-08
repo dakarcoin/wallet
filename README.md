@@ -1,7 +1,6 @@
 
 
 # What is DakarCoin?
-----------------
 
 DakarCoin is an experimental digital currency that enables instant payments to
 anyone, anywhere in the world.
@@ -43,9 +42,6 @@ dependencies {
     implementation 'com.Dakarwallet:wallet-core:x.y.z'
 }
 ```
-Replace x.y.z with latest version:  
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/Dakarwallet/wallet-core)
-
 
 
 # Contributing
