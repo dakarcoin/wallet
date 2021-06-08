@@ -46,19 +46,6 @@ Replace x.y.z with latest version:
 
 
 
-# Projects
-
-Projects using Dakar Wallet Core.  Add yours too!
-
-[<img src="https://Dakarwallet.com/assets/images/Dakar_logotype.svg" alt="Dakar Wallet"/>](https://Dakarwallet.com)
-
-[Coinpaprika](https://coinpaprika.com/)
-| [IFWallet](https://www.ifwallet.com/)
-| [crypto.com](https://crypto.com)
-| [Alice](https://www.alicedapp.com/)
-| [Frontier](https://frontier.xyz/)
-
-
 # Contributing
 
 The best way to submit feedback and report bugs is to [open a GitHub issue](https://github.com/Dakarwallet/wallet-core/issues/new).
@@ -71,3 +58,31 @@ Thanks to all the people who contribute.
 # License
 
 Dakar Wallet Core is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
+
+Testing
+-------
+
+Testing and code review is the bottleneck for development; we get more pull
+requests than we can review and test on short notice. Please be patient and help out by testing
+other people's pull requests, and remember this is a security-critical project where any mistake might cost people
+lots of money.
+
+# Automated Testing
+
+Developers are strongly encouraged to write [unit tests](src/test/README.md) for new code, and to
+submit new unit tests for old code. Unit tests can be compiled and run
+(assuming they weren't disabled in configure) with: `make check`. Further details on running
+and extending unit tests can be found in [/src/test/README.md](/src/test/README.md).
+
+There are also [regression and integration tests](/test), written
+in Python, that are run automatically on the build server.
+These tests can be run (if the [test dependencies](/test) are installed) with: `test/functional/test_runner.py`
+
+The Travis CI system makes sure that every pull request is built for Windows, Linux, and macOS, and that unit/sanity tests are run automatically.
+
+# Manual Quality Assurance (QA) Testing
+
+Changes should be tested by somebody other than the developer who wrote the
+code. This is especially important for large or high-risk changes. It is useful
+to add a test plan to the pull request description if testing the changes is
+not straightforward.
