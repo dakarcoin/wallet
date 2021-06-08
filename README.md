@@ -1,4 +1,6 @@
-What is DakarCoin?
+
+
+# What is DakarCoin?
 ----------------
 
 DakarCoin is an experimental digital currency that enables instant payments to
