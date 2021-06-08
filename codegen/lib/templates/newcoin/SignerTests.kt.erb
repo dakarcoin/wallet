@@ -1,0 +1,45 @@
+// Copyright © 2017-2021 Dakar Wallet.
+//
+// This file is part of Dakar. The full Dakar copyright notice, including
+// terms governing use, modification, and redistribution, is contained in the
+// file LICENSE at the root of the source code distribution tree.
+
+package com.Dakarwallet.core.app.blockchains.<%= format_name_lowercase(coin) %>
+
+import com.google.protobuf.ByteString
+import com.Dakarwallet.core.app.utils.Numeric
+import com.Dakarwallet.core.app.utils.toHexByteArray
+import com.Dakarwallet.core.app.utils.toHexBytes
+import com.Dakarwallet.core.app.utils.toHexBytesInByteString
+import org.junit.Assert.assertEquals
+import org.junit.Test
+import wallet.core.jni.<%= format_name(coin) %>Signer
+import wallet.core.jni.proto.<%= format_name(coin) %>
+
+class Test<%= format_name(coin) %>Signer {
+
+    init {
+        System.loadLibrary("DakarWalletCore")
+    }
+
+    @Test
+    fun <%= format_name(coin) %>TransactionSigning() {
+        // TODO: Finalize implementation
+
+        //val transfer = <%= format_name(coin) %>.TransferMessage.newBuilder()
+        //    .setTo("...")
+        //    .setAmount(...)
+        //    ...
+        //    .build()
+        //val signingInput = <%= format_name(coin) %>.SigningInput.newBuilder()
+        //    ...
+        //    .build()
+
+        //val output: <%= format_name(coin) %>.SigningOutput = <%= format_name(coin) %>Signer.sign(signingInput)
+
+        //assertEquals(
+        //    "__EXPECTED_RESULT_DATA__",
+        //    Numeric.toHexString(output.encoded.toByteArray())
+        //)
+    }
+}
