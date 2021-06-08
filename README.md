@@ -2,7 +2,11 @@ What is DakarCoin?
 ----------------
 
 DakarCoin is an experimental digital currency that enables instant payments to
-anyone, anywhere in the world.The total amount of network original token DAK issued is 6.88 million, the total amount of mining and destruction is 6.8 million, and the total amount of circulation in the whole network is 80000.DakarCoin uses peer-to-peer technology to operate
+anyone, anywhere in the world.
+
+The total amount of network original token DAK issued is 6.88 million, the total amount of mining and destruction is 6.8 million, and the total amount of circulation in the whole network is 80000.
+
+DakarCoin uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
 out collectively by the network. DakarCoin Core is the name of open source
 software which enables the use of this currency.
@@ -11,7 +15,7 @@ software which enables the use of this currency.
 
 # Documentation
 
-For comprehensive documentation, see [developer.Dakarwallet.com](https://developer.Dakarwallet.com/wallet-core).
+For comprehensive documentation, see developer.Dakarwallet.com.
 
 # Supported Blockchains
 
